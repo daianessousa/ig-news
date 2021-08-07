@@ -6,7 +6,7 @@ export default function Home(){
       <Head>
         <title>ig.news</title>
       </Head>
-      <h1>Daiane Sousa</h1>
+      
     </>
   )
 }
