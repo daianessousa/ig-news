@@ -7,13 +7,13 @@ import { stripe } from '../../services/stripe';
 type User = {
   ref: {
     id: string;
-  }
-
+  };
   data: {
     stripe_customer_id: string;
-  }
+  };
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
     const session = await getSession({ req })
@@ -27,7 +27,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       )
     )
 
-    let customerId = user.data.stripe_customer_id
+    let customerId = user.data.stripe_customer_id;
 
     if (!customerId) {
 
