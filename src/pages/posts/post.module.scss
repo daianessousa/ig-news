@@ -14,19 +14,20 @@
   }
 
   time {
-    font-size: 1rem; 
+    font-size: 1rem;
     color: var(--gray-300);
     margin-top: 1.5rem;
     display: block;
   }
 
-  .postContent{
-    margin-top: 2rem; 
+  .postContent {
+    margin-top: 2rem;
     line-height: 2rem;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     color: var(--gray-300);
 
-    p, ul {
+    p,
+    ul {
       margin: 1.5rem 0;
     }
 
@@ -37,5 +38,32 @@
         margin: 0.5rem 0;
       }
     }
+
+    &.previewContent {
+      background: linear-gradient(var(--gray-100), transparent);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
+}
+
+.continueReading {
+  padding: 2rem;
+  text-align: center;
+  background: var(--gray-850);
+  border-radius: 100px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 4rem 0 2rem;
+
+  a {
+    color: var(--yellow-500);
+    margin-left: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+
 }
