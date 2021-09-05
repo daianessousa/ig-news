@@ -60,7 +60,8 @@ $ yarn dev
    <a href="https://www.daianesousa.tech/" target="_blank">
     <img alt="Daiane Sousa" title="Daiane Sousa" src="https://avatars.githubusercontent.com/u/52220304?v=4" width="100px"/>
   </a>
- [Daiane Sousa](https://www.daianesousa.tech/)
+ 
+ 🚀 [Daiane Sousa](https://www.daianesousa.tech/)
     
   [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daiane-cristinny-sousa-dos-reis-174b16138/)](https://www.linkedin.com/in/daianessousa/) 
   [![Gmail Badge](https://img.shields.io/badge/-daisousa.c@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:daisousa.c@gmail.com)](mailto:daisousa.c@gmail.com)
